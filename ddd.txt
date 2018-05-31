@@ -1,0 +1,2495 @@
+—трочка, дл€ добавлени€ в файл general.ini дл€ открыти€ консоли разработчика:
+DBGConsoleOn=true
+
+ онсольные команды
+spawn('название существа', 3, 10, true) Ч спавн существа
+learnskill('sword_s10') Ч изучить скилл
+replaceplayer('Ciri') Ч сменить √еральта на ÷ири
+addmoney(11) Ч добавить деньги, можно поэкспериментировать с цифрой в скобках
+removemoney(11) Ч удалить деньги, можно экспериментировать с цифрой в скобках
+eatapple()Ц съесть €блоко
+god() Ч разные варианты режима бога
+god2() Ч разные варианты режима бога
+god3() Ч разные варианты режима бога
+testpause() Ч включить паузу
+testunpause() Ч выключить паузу
+addexp (1000) Ч получить опыт, значение в скобках мен€етс€
+setlevel(5) Ч сделать указанный уровень герою
+addskillpoints(2) Ч добавить очков навыков, значение в скобках мен€етс€
+winGwint(true) Ч победить в √винт
+killall(50) Ч убить врагов в указанном радиусе
+makeitrain Ч включить дождь
+stoprain Ч выключить дождь
+xy(posX,posY) Ч телепортироватьс€ по нужным координатам. posX и posY мен€ем на координаты по вертикали и горизонтали. ¬ключаем режим бога, так как в некоторых точках карты √еральт может упасть с большой высоты
+shave() Ч побритьс€
+healme() Ч восстановить здоровье
+secretgwint() Ч запускает партию в √винт
+additem('название предмета', 1) Ч добавить вещь, полный список смотрим ниже:
+ѕредметы из дополнени€ Ђ ровь и виної
+—еты новой брони:
+
+additem('Bear Pants 5')
+additem('Bear Boots 5')
+additem('Bear Gloves 5')
+additem('Bear Armor 4')
+additem('Bear School steel sword 4')
+additem('Bear School silver sword 4')
+additem('Lynx Pants 5')
+additem('Lynx Boots 5')
+additem('Lynx Gloves 5')
+additem('Lynx Armor 4')
+additem('Lynx School steel sword 4')
+additem('Lynx School silver sword 4')
+additem('Gryphon Pants 5')
+additem('Gryphon Boots 5')
+additem('Gryphon Gloves 5')
+additem('Gryphon Armor 4')
+additem('Gryphon School steel sword 4')
+additem('Gryphon School silver sword 4')
+additem('Wolf Pants 5')
+additem('Wolf Boots 5')
+additem('Wolf Gloves 5')
+additem('Wolf Armor 4')
+additem('Wolf School steel sword 4')
+additem('Wolf School silver sword 4')
+additem('Red Wolf Pants 1')
+additem('Red Wolf Gloves 1')
+additem('Red Wolf Boots 1')
+additem('Red Wolf Armor 1')
+additem('Red Wolf School steel sword 1')
+additem('Red Wolf School silver sword 1')
+¬се предметы из Ђ ровь и виної
+
+additem('DLC1 Temerian Armor')
+additem('DLC1 Temerian Boots')
+additem('DLC1 Temerian Gloves')
+additem('DLC1 Temerian Pants')
+additem('DLC5 Nilfgaardian Armor')
+additem('DLC5 Nilfgaardian Boots')
+additem('DLC5 Nilfgaardian Gloves')
+additem('DLC5 Nilfgaardian Pants')
+additem('DLC1 Temerian HorseBag')
+additem('DLC1 Temerian HorseBlinders')
+additem('DLC1 Temerian HorseSaddle')
+additem('DLC5 Nilfgaardian HorseBag')
+additem('DLC5 Nilfgaardian HorseBlinders')
+additem('DLC5 Nilfgaardian HorseSaddle')
+additem('DLC13 Nilfgaardian Crossbow')
+additem('DLC13 Skellige Crossbow')
+additem('DLC13 Elven Crossbow')
+additem('DLC14 Skellige Armor')
+additem('DLC14 Skellige Boots')
+additem('DLC14 Skellige Gloves')
+additem('DLC14 Skellige Pants')
+additem('DLC14 Skellige HorseBag')
+additem('DLC14 Skellige HorseBlinders')
+additem('DLC14 Skellige HorseSaddle')
+additem('Wolf Armor')
+additem('Wolf Armor 1')
+additem('Wolf Armor 2')
+additem('Wolf Armor 3')
+additem('Wolf School steel sword')
+additem('Wolf School steel sword 1')
+additem('Wolf School steel sword 2')
+additem('Leather squares')
+additem('Wolf School silver sword')
+additem('Wolf School silver sword 1')
+additem('Wolf School silver sword 2')
+additem('Wolf Armor')
+additem('Wolf Armor 1')
+additem('Wolf Armor 2')
+additem('Wolf Gloves 1')
+additem('Wolf Gloves 2')
+additem('Wolf Gloves 3')
+additem('Wolf Pants 1')
+additem('Wolf Pants 2')
+additem('Wolf Pants 3')
+additem('Wolf Boots 1')
+additem('Wolf Boots 2')
+additem('Wolf Boots 3')
+additem('Wolf Armor schematic')
+additem('Wolf Boots schematic')
+additem('Wolf Gloves schematic')
+additem('Wolf Pants schematic')
+additem('Witcher Wolf Jacket Upgrade schematic 1')
+additem('Witcher Wolf Jacket Upgrade schematic 2')
+additem('Witcher Wolf Jacket Upgrade schematic 3')
+additem('Witcher Wolf Boots Upgrade schematic 1')
+additem('Witcher Wolf Pants Upgrade schematic 1')
+additem('Witcher Wolf Gloves Upgrade schematic 1')
+additem('Wolf School steel sword Upgrade schematic 1')
+additem('Wolf School steel sword Upgrade schematic 2')
+additem('Wolf School steel sword Upgrade schematic 3')
+additem('Wolf School silver sword Upgrade schematic 1')
+additem('Wolf School silver sword Upgrade schematic 2')
+additem('Wolf School silver sword Upgrade schematic 3')
+additem('Leather squares')
+additem('th1009_journal_wolf_part1a')
+additem('th1009_journal_wolf_part2a')
+additem('th1009_journal_wolf_part3a')
+additem('th1009_journal_wolf_part4')
+additem('th1009_map_wolf_upgrade1a')
+additem('th1009_map_wolf_upgrade1b')
+additem('th1009_map_wolf_upgrade2')
+additem('th1009_map_wolf_upgrade2b')
+additem('NGP DLC1 Temerian Armor')
+additem('NGP DLC1 Temerian Boots')
+additem('NGP DLC1 Temerian Gloves')
+additem('NGP DLC1 Temerian Pants')
+additem('NGP DLC5 Nilfgaardian Armor')
+additem('NGP DLC5 Nilfgaardian Boots')
+additem('NGP DLC5 Nilfgaardian Gloves')
+additem('NGP DLC5 Nilfgaardian Pants')
+additem('NGP DLC14 Skellige Armor')
+additem('NGP DLC14 Skellige Boots')
+additem('NGP DLC14 Skellige Gloves')
+additem('NGP DLC14 Skellige Pants')
+additem('NGP Starting Pants')
+additem('NGP Pants 01')
+additem('NGP Pants 01 q2')
+additem('NGP Pants 02')
+additem('NGP Pants 03')
+additem('NGP Pants 04')
+additem('NGP Heavy pants 01')
+additem('NGP Heavy pants 02')
+additem('NGP Heavy pants 03')
+additem('NGP Heavy pants 04')
+additem('NGP Nilfgaardian Casual Pants')
+additem('NGP Skellige Casual Pants 01')
+additem('NGP Skellige Casual Pants 02')
+additem('NGP Bath Towel Pants 01')
+additem('NGP Pants 01_crafted')
+additem('NGP Pants 02_crafted')
+additem('NGP Pants 03_crafted')
+additem('NGP Pants 04_crafted')
+additem('NGP Heavy pants 01_crafted')
+additem('NGP Heavy pants 02_crafted')
+additem('NGP Heavy pants 03_crafted')
+additem('NGP Heavy pants 04_crafted')
+additem('NGP Lynx Pants 1')
+additem('NGP Lynx Pants 2')
+additem('NGP Lynx Pants 3')
+additem('NGP Lynx Pants 4')
+additem('NGP Gryphon Pants 1')
+additem('NGP Gryphon Pants 2')
+additem('NGP Gryphon Pants 3')
+additem('NGP Gryphon Pants 4')
+additem('NGP Bear Pants 1')
+additem('NGP Bear Pants 1')
+additem('NGP Bear Pants 2')
+additem('NGP Bear Pants 3')
+additem('NGP Bear Pants 4')
+additem('NGP Wolf Armor')
+additem('NGP Wolf Armor 1')
+additem('NGP Wolf Armor 2')
+additem('NGP Wolf Armor 3')
+additem('NGP Wolf School steel sword')
+additem('NGP Wolf School steel sword 1')
+additem('NGP Wolf School steel sword 2')
+additem('NGP Wolf School silver sword')
+additem('NGP Wolf School silver sword 1')
+additem('NGP Wolf School silver sword 2')
+additem('NGP Wolf Armor')
+additem('NGP Wolf Armor 1')
+additem('NGP Wolf Armor 2')
+additem('NGP Wolf Gloves 2')
+additem('NGP Wolf Gloves 3')
+additem('NGP Wolf Pants 1')
+additem('NGP Wolf Pants 2')
+additem('NGP Wolf Pants 3')
+additem('NGP Wolf Boots 1')
+additem('NGP Wolf Boots 2')
+additem('NGP Wolf Boots 3')
+ѕредметы из дополнени€ Ђ аменные сердцаї
+—нар€жение школы змеи
+
+їadditem ('EP1 Witcher Armor')ї
+їadditem ('EP1 Witcher Gloves')ї
+їadditem ('EP1 Witcher Boots')ї
+їadditem ('EP1 Witcher Pants')ї
+їadditem('EP1 Viper School silver sword')ї
+їadditem('EP1 Viper School steel sword').ї
+Ќаграды из финала
+
+їadditem('Devil Saddle')ї
+їadditem ('Soltis Vodka')ї
+їadditem (Cornucopia)ї
+їadditem ('Olgierd Sabre')ї
+ќфирское снар€жение
+
+їadditem ('Ofir Pants')ї
+їadditem ('Ofir Armor')ї
+їadditem ('Ofir Boots')ї
+їadditem ('Ofir Horse Bag')ї Ofieri Saddlebags
+їadditem ('Ofir Horse Blinders')ї Ofieri Blinders
+їadditem('Horse Saddle 6') Ofieri Saddle
+ѕрочие снар€жение и предметы
+
+їadditem (Geralt Kontusz)ї
+їadditem (Geralt Kontusz R)ї
+їadditem ('Geralt Kontusz Boots')ї
+їadditem ('Geralt Kontusz Boots R')ї
+їadditem (Thief Armor B)ї
+їadditem ('Thief Gloves')ї
+їadditem('Thief Pants')ї
+їadditem('Thief Boots')ї
+їadditem ('Plank')ї
+їadditem ('q602_donkey_ears')ї
+їadditem ('PC Caretaker Shovel')ї
+їadditem ('q603_emhyr_mask')ї
+їadditem ('q603_foltest_mask')ї
+їadditem ('q603_henselt_mask')ї
+їadditem ('q603_radovid_mask')ї
+ арты дл€ гвинта
+
+'additem ('gwint_card_cow')ї Cow Gwent card
+їgwint_card_olgierdї Olgierd Von Everec
+їadditem('gwint_card_toad')ї Toad Card
+їadditem ('gwint_card_schirru')ї Schirru Card
+ оды брони
+Ѕрон€ школы медвед€, разной ценности
+
+- Bear Armor Ч основна€ брон€
+
+- Bear Armor 1
+
+- Bear Armor 2
+
+- Bear Armor 3
+
+- Bear Boots 1 Ч ботинки
+
+- Bear Boots 2
+
+- Bear Boots 3
+
+- Bear Boots 4
+
+- Bear Gloves 1 Ч перчатки
+
+- Bear Gloves 2
+
+- Bear Gloves 3
+
+- Bear Gloves 4
+
+- Bear Pants 1 Ч брюки
+
+- Bear Pants 2
+
+- Bear Pants 3
+
+- Bear Pants 4
+
+Ѕрон€ школы грифона
+
+- Gryphon Armor Ч брон€
+
+- Gryphon Armor 1
+
+- Gryphon Armor 2
+
+- Gryphon Armor 3
+
+- Gryphon Boots 1 Ч ботинки
+
+- Gryphon Boots 2
+
+- Gryphon Boots 3
+
+- Gryphon Boots 4
+
+- Gryphon Gloves 1 Ч перчатки
+
+- Gryphon Gloves 2
+
+- Gryphon Gloves 3
+
+- Gryphon Gloves 4
+
+- Gryphon Pants 1 Ч штаны
+
+- Gryphon Pants 2
+
+- Gryphon Pants 3
+
+- Gryphon Pants 4
+
+Ѕрон€ школы –ыси
+
+- Lynx Armor Ч брон€
+
+- Lynx Armor 1
+
+- Lynx Armor 2
+
+- Lynx Armor 3
+
+- Lynx Boots 1 Ч сапоги
+
+- Lynx Boots 2
+
+- Lynx Boots 3
+
+- Lynx Boots 4
+
+- Lynx Gloves 1 Ч перчатки
+
+- Lynx Gloves 2
+
+- Lynx Gloves 3
+
+- Lynx Gloves 4
+
+- Lynx Pants 1 Ч штаны
+
+- Lynx Pants 2
+
+- Lynx Pants 3
+
+- Lynx Pants 4
+
+ѕроча€ брон€
+
+Armor Ч брон€, boots Ч сапоги, pants Ч штаны, gloves Ч перчатки. Heavy Ч т€жела€, medium Ч средн€€, light Ч легка€.
+
+- Boots 01_crafted
+
+- Boots 02_crafted
+
+- Boots 03_crafted
+
+- Boots 04_crafted
+
+- Boots 07_crafted
+
+- Gloves 01_crafted
+
+- Gloves 02_crafted
+
+- Gloves 03_crafted
+
+- Gloves 04_crafted
+
+- Heavy armor 01_crafted
+
+- Heavy armor 02_crafted
+
+- Heavy armor 03_crafted
+
+- Heavy armor 04_crafted
+
+- Heavy boots 01_crafted
+
+- Heavy boots 02_crafted
+
+- Heavy boots 03_crafted
+
+- Heavy boots 04_crafted
+
+- Heavy boots 07_crafted
+
+- Heavy boots 08_crafted
+
+- Heavy gloves 01_crafted
+
+- Heavy gloves 02_crafted
+
+- Heavy gloves 03_crafted
+
+- Heavy gloves 04_crafted
+
+- Heavy pants 01_crafted
+
+- Heavy pants 02_crafted
+
+- Heavy pants 03_crafted
+
+- Heavy pants 04_crafted
+
+- Light armor 01_crafted
+
+- Light armor 02_crafted
+
+- Light armor 03_crafted
+
+- Light armor 04_crafted
+
+- Light armor 05_crafted
+
+- Light armor 06_crafted
+
+- Light armor 07_crafted
+
+- Light armor 08_crafted
+
+- Medium armor 01_crafted
+
+- Medium armor 02_crafted
+
+- Medium armor 03_crafted
+
+- Medium armor 04_crafted
+
+- Pants 01_crafted
+
+- Pants 02_crafted
+
+- Pants 03_crafted
+
+- Pants 04_crafted
+
+- Relic Heavy 3 crafted
+
+- Starting Armor 1
+
+- Thyssen armor crafted
+
+ќружие
+Ўкола медвед€
+
+- Bear School Crossbow Ч арбалет
+
+- Bear School silver sword Ч серебр€нный меч
+
+- Bear School silver sword 1
+
+- Bear School silver sword 2
+
+- Bear School silver sword 3
+
+- Bear School steel sword Ч обычный меч
+
+- Bear School steel sword 1
+
+- Bear School steel sword 2
+
+- Bear School steel sword 3
+
+Ўкола грифона
+
+- Gryphon School silver sword Ч серебр€ный меч
+
+- Gryphon School silver sword 1
+
+- Gryphon School silver sword 2
+
+- Gryphon School silver sword 3
+
+- Gryphon School steel sword
+
+- Gryphon School steel sword 1
+
+- Gryphon School steel sword 2
+
+- Gryphon School steel sword 3
+
+Ўкола рыси
+
+- Lynx School Crossbow
+
+- Lynx School silver sword
+
+- Lynx School silver sword 1
+
+- Lynx School silver sword 2
+
+- Lynx School silver sword 3
+
+- Lynx School steel sword
+
+- Lynx School steel sword 1
+
+- Lynx School steel sword 2
+
+- Lynx School steel sword 3
+
+ѕрочее оружие
+
+Sword Ч меч, silver sword Ч серебр€ный меч, crossbow Ч арбалет, shiel Ч щит.
+
+- Abarad
+
+- Addandeith
+
+- Aerondight
+
+- Anathema
+
+- Angivare
+
+- Anth
+
+- Arainne
+
+- Arbitrator
+
+- Arbitrator_crafted
+
+- Ardaenye
+
+- Ashrune
+
+- Azurewrath
+
+- Bandit Shield 01
+
+- Bandit Shield 02
+
+- Bandit Shield 03
+
+- Bandit Shield 04
+
+- Barbersurgeon
+
+- Baron Guard Shield 01
+
+- Beannshie
+
+- Beannshie_crafted
+
+- Blackunicorn
+
+- Blackunicorn_crafted
+
+- Bladeofys
+
+- Bloedeaedd
+
+- Bloodsword
+
+- bow_01
+
+- bow_02
+
+- bow_elven_01
+
+- Breathofthenorth
+
+- Caerme
+
+- Caranthil Staff
+
+- Caranthil Staff Broken
+
+- Caroline
+
+- Cheesecutter
+
+- Cleaver
+
+- Crossbow 1
+
+- Crossbow 2
+
+- Crossbow 3
+
+- Crossbow 4
+
+- Crossbow 5
+
+- Crossbow 6
+
+- Crossbow 7
+
+- Crossbow q206
+
+- crossbow_01
+
+- Dancer
+
+- Daystar
+
+- Deargdeith
+
+- Deireadh
+
+- Deithwen
+
+- Devine
+
+- Dwarven silver sword 1
+
+- Dwarven silver sword 1_crafted
+
+- Dwarven silver sword 2
+
+- Dwarven silver sword 2_crafted
+
+- Dwarven sword 1
+
+- Dwarven sword 1_crafted
+
+- Dwarven sword 2
+
+- Dwarven sword 2_crafted
+
+- Dyaebl
+
+- Elven silver sword 1
+
+- Elven silver sword 1_crafted
+
+- Elven silver sword 2
+
+- Elven silver sword 2_crafted
+
+- Fate
+
+- Forgottenvransword
+
+- Gloryofthenorth
+
+- Gnomish silver sword 1
+
+- Gnomish silver sword 1_crafted
+
+- Gnomish silver sword 2
+
+- Gnomish silver sword 2_crafted
+
+- Gnomish sword 1
+
+- Gnomish sword 1_crafted
+
+- Gnomish sword 2
+
+- Gnomish sword 2_crafted
+
+- Gwestog
+
+- Gwyhyr
+
+- Gynvael
+
+- Gynvaelaedd
+
+- Harpy
+
+- Harpy_crafted
+
+- Harvall
+
+- Havcaaren
+
+- Headtaker
+
+- Hjalmar_Short_Steel_Sword
+
+- Imlerith Mace
+
+- Imlerith Shield
+
+- Inis
+
+- Inquisitor sword 1
+
+- Inquisitor sword 1_crafted
+
+- Inquisitor sword 2
+
+- Inquisitor sword 2_crafted
+
+- Karabela
+
+- Loathen
+
+- Long Steel Sword
+
+- Longclaw
+
+- Longclaw_crafted
+
+- Lune
+
+- Moonblade
+
+- Mourner
+
+- Naevdeseidhe
+
+- Negotiator
+
+- Negotiator_crafted
+
+- Nilfgaard Shield 01
+
+- Nilfgaard Shield 02
+
+- Nilfgaardian sword 1
+
+- Nilfgaardian sword 1_crafted
+
+- Nilfgaardian sword 2
+
+- Nilfgaardian sword 3
+
+- Nilfgaardian sword 4
+
+- Nilfgaardian sword 4_crafted
+
+- No Mans Land sword 1
+
+- No Mans Land sword 1 q2
+
+- No Mans Land sword 1_crafted
+
+- No Mans Land sword 2
+
+- No Mans Land sword 2_crafted
+
+- No Mans Land sword 3
+
+- No Mans Land sword 3_crafted
+
+- No Mans Land sword 4
+
+- No Mans Land sword 4_crafted
+
+- Novigraadan sword 1
+
+- Novigraadan sword 1_crafted
+
+- Novigraadan sword 2
+
+- Novigraadan sword 2_crafted
+
+- Novigraadan sword 3
+
+- Novigraadan sword 3_crafted
+
+- Novigraadan sword 4
+
+- Novigraadan sword 4_crafted
+
+- Novigrad Shield 01
+
+- Novigrad Shield 02
+
+- Reachofthedamned
+
+- Redanian Shield 01
+
+- Robustswordofdolblathanna
+
+- Roseofaelirenn
+
+- Rusty Nilfgaardian sword
+
+- Rusty No Mans Land sword
+
+- Rusty Novigraadan sword
+
+- Rusty Skellige sword
+
+- Scoiatael sword 1
+
+- Scoiatael sword 1_crafted
+
+- Scoiatael sword 2
+
+- Scoiatael sword 2_crafted
+
+- Scoiatael sword 3
+
+- Scoiatael sword 3_crafted
+
+- Scoiatael sword 4
+
+- Scoiatael sword 4_crafted
+
+- Short Steel Sword
+
+- Short sword 1
+
+- Short sword 1_crafted
+
+- Short sword 2
+
+- Short sword 2_crafted
+
+- Silver sword 1
+
+- Silver sword 1_crafted
+
+- Silver sword 2
+
+- Silver sword 2_crafted
+
+- Silver sword 3
+
+- Silver sword 3_crafted
+
+- Silver sword 4
+
+- Silver sword 4_crafted
+
+- Silver sword 5
+
+- Silver sword 5_crafted
+
+- Silver sword 6
+
+- Silver sword 6_crafted
+
+- Silver sword 7
+
+- Silver sword 7_crafted
+
+- Silver sword 8
+
+- Skellige Brokvar Shield 01
+
+- Skellige Craite Shield 01
+
+- Skellige Dimun Shield 01
+
+- Skellige Drummond Shield 01
+
+- Skellige Heymaey Shield 01
+
+- Skellige sword 1
+
+- Skellige sword 1_crafted
+
+- Skellige sword 2
+
+- Skellige sword 2_crafted
+
+- Skellige sword 3_crafted
+
+- Skellige sword 4
+
+- Skellige sword 4_crafted
+
+- Skellige Tuiseach Shield 01
+
+- sq303_blunt_sword
+
+- sq304 Novigraadan sword 4
+
+- Temeria Shield 01
+
+- Tlareg
+
+- Torlara
+
+- Torzirael
+
+- Ultimatum
+
+- Viper School silver sword
+
+- Viper School steel sword
+
+- Virgin
+
+- Vynbleidd
+
+- Weeper
+
+- Weeper_crafted
+
+- Wild Hunt sword 1
+
+- Wild Hunt sword 2
+
+- Wild Hunt sword 3
+
+- Wild Hunt sword 4
+
+- Witcher Silver Sword
+
+- WitcherSilverWolf
+
+- Wolf
+
+- Wooden sword
+
+- Zerrikanterment
+
+- Zireael Phantom Sword
+
+- Zireael Sword
+
+«ель€
+
+- Black Blood 1 Ч „ерна€ кровь
+
+- Black Blood 2
+
+- Black Blood 3
+
+- Blizzard 1 Ч ѕурга
+
+- Blizzard 2
+
+- Blizzard 3
+
+- Cat 1 Ч  ошка
+
+- Cat 2
+
+- Cat 3
+
+- Clearing Potion Ч ќчищающее зелье
+
+- Full Moon 1 Ч ѕолнолуние
+
+- Full Moon 2
+
+- Full Moon 3
+
+- Golden Oriole 1 Ч «олота€ иволга
+
+- Golden Oriole 2
+
+- Golden Oriole 3
+
+- Killer Whale 1
+
+- Maribor Forest 1 Ч Ћес ћарибора
+
+- Maribor Forest 2
+
+- Maribor Forest 3
+
+- Petri Philtre 1 Ч «елье ѕетри
+
+- Petri Philtre 2
+
+- Petri Philtre 3
+
+- Pheromone Potion Bear 1
+
+- Pheromone Potion Drowner 1
+
+- Pheromone Potion Nekker 1
+
+- Pops Antidote
+
+- Swallow 1 Ч Ћасточка
+
+- Swallow 2
+
+- Swallow 3
+
+- Tawny Owl 1
+
+- Tawny Owl 2
+
+- Tawny Owl 3
+
+- Thunderbolt 1 Ч √ром
+
+- Thunderbolt 2
+
+- Thunderbolt 3
+
+- Trial Potion Kit
+
+- Village drink
+
+- White Honey 1 Ч Ѕелый мед
+
+- White Honey 2
+
+- White Honey 3
+
+- White Raffards Decoction 1 Ч «елье –аффарда Ѕелого
+
+- White Raffards Decoction 2
+
+- White Raffards Decoction 3
+
+Ѕомбы
+
+- Alkali Bomb 1
+
+- Alkali Bomb 2
+
+- Alkali Bomb 3
+
+- Dancing Star 1
+
+- Dancing Star 2
+
+- Dancing Star 3
+
+- Devils Puffball 1
+
+- Devils Puffball 2
+
+- Devils Puffball 3
+
+- Dragons Dream 1
+
+- Dragons Dream 2
+
+- Dragons Dream 3
+
+- Dwimeritium Bomb 1
+
+- Dwimeritium Bomb 2
+
+- Dwimeritium Bomb 3
+
+- Fungi Bomb 1
+
+- Glue Bomb 1
+
+- Grapeshot 1
+
+- Grapeshot 2
+
+- Grapeshot 3
+
+- Salt Bomb 1
+
+- Samum 1
+
+- Samum 2
+
+- Samum 3
+
+- Shrapnel Bomb 1
+
+- Silver Dust Bomb 1
+
+- Silver Dust Bomb 2
+
+- Silver Dust Bomb 3
+
+- Snow Ball
+
+- Tutorial Bomb
+
+- Virus Bomb 1
+
+- White Frost 1
+
+- White Frost 2
+
+- White Frost 3
+
+–уны, глифы, улучшени€ дл€ лошади и проч.
+
+Rare в конце названи€ обозначает редкую версию руны.
+
+- Dazhbog rune
+
+- Dazhbog rune rare
+
+- Devana rune
+
+- Devana rune rare
+
+- Elemental rune
+
+- Elemental rune rare
+
+- Forgotten soul
+
+- Forgotten soul rare
+
+- Glyph aard
+
+- Glyph aard greater
+
+- Glyph aard lesser
+
+- Glyph axii
+
+- Glyph axii greater
+
+- Glyph axii lesser
+
+- Glyph igni
+
+- Glyph igni greater
+
+- Glyph igni lesser
+
+- Glyph quen
+
+- Glyph quen greater
+
+- Glyph quen lesser
+
+- Glyph yrden
+
+- Glyph yrden greater
+
+- Glyph yrden lesser
+
+- Horse apex tail
+
+- Horse Bag 1
+
+- Horse Bag 2
+
+- Horse Bag 3
+
+- Horse Blinder 1
+
+- Horse Blinder 2
+
+- Horse Blinder 3
+
+- Horse Cutscene Reins
+
+- Horse Hair 0
+
+- Horse Harness 0
+
+- Horse Saddle 0
+
+- Horse Saddle 1
+
+- Horse Saddle 1v2
+
+- Horse Saddle 1v3
+
+- Horse Saddle 1v4
+
+- Horse Saddle 2
+
+- Horse Saddle 2v2
+
+- Horse Saddle 2v3
+
+- Horse Saddle 2v4
+
+- Horse Saddle 3
+
+- Horse Saddle 3v2
+
+- Horse Saddle 3v3
+
+- Horse Saddle 3v4
+
+- Horse Saddle 4
+
+- Horse skinned tail
+
+- Horse Universal Reins
+
+- Morana rune
+
+- Morana rune rare
+
+- Perun rune
+
+- Perun rune rare
+
+- Philosophers stone
+
+- Philosophers stone rare
+
+- Phosphorescent crystal
+
+- Phosphorescent crystal rare
+
+- Rune dazhbog
+
+- Rune dazhbog greater
+
+- Rune dazhbog lesser
+
+- Rune devana
+
+- Rune devana greater
+
+- Rune devana lesser
+
+- Rune elemental
+
+- Rune elemental greater
+
+- Rune elemental lesser
+
+- Rune morana
+
+- Rune morana greater
+
+- Rune morana lesser
+
+- Rune perun
+
+- Rune perun greater
+
+- Rune perun lesser
+
+- Rune quentin
+
+- Rune quentin greater
+
+- Rune quentin lesser
+
+- Rune stribog
+
+- Rune stribog greater
+
+- Rune stribog lesser
+
+- Rune svarog
+
+- Rune svarog greater
+
+- Rune svarog lesser
+
+- Rune triglav
+
+- Rune triglav greater
+
+- Rune triglav lesser
+
+- Rune veles
+
+- Rune veles greater
+
+- Rune veles lesser
+
+- Rune zoria
+
+- Rune zoria greater
+
+- Rune zoria lesser
+
+- Shattered core
+
+- Shattered core rare
+
+- Stribog rune
+
+- Stribog rune rare
+
+- Svarog rune
+
+- Svarog rune rare
+
+- Triglav rune
+
+- Triglav rune rare
+
+- Veles rune
+
+- Veles rune rare
+
+- Zoria rune
+
+- Zoria rune rare
+
+»нгридиенты
+
+- Aether
+
+- Albedo
+
+- Alchemical paste
+
+- Alchemists powder
+
+- Alcohest
+
+- Alghoul bone marrow
+
+- Alghoul claw
+
+- Amber
+
+- Amber dust
+
+- Amber flawless
+
+- Amber fossil
+
+- Amethyst
+
+- Amethyst dust
+
+- Amethyst flawless
+
+- an_skellige_map
+
+- Ancient Leshy mutagen
+
+- Apple
+
+- Apple juice
+
+- Arachas eyes
+
+- Arachas mutagen
+
+- Arachas venom
+
+- ard_skellige_map
+
+- Armor maintenancet
+
+- Armor repair kit 1
+
+- Armor repair kit 2
+
+- Armor repair kit 3
+
+- Ashes
+
+- Axe head
+
+- Bag of grain
+
+- Bag of weed
+
+- Baked apple
+
+- Baked potato
+
+- Banana
+
+- Basilisk mutagen
+
+- Basilisk plate
+
+- Basilisk venom
+
+- Bear fat
+
+- Bear pelt
+
+- Beauclair White
+
+- Bell pepper
+
+- Berserker pelt
+
+- Black pearl
+
+- Black pearl dust
+
+- Blasting powder
+
+- Blueberries
+
+- Blunt axe
+
+- Blunt pickaxe
+
+- Book
+
+- Bottle
+
+- Bottled water
+
+- Bread
+
+- Broken paddle
+
+- Broken rakes
+
+- Bun
+
+- Burned bread
+
+- Burned bun
+
+- Butter Bandalura
+
+- Calcium equum
+
+- Candelabra
+
+- Candle
+
+- Candy
+
+- Casket
+
+- Cave Troll liver
+
+- Cheese
+
+- Cherry cordia
+
+- Cherry Cordial
+
+- Chicken
+
+- Chicken leg
+
+- Chicken sandwich
+
+- Child doll
+
+- Chips
+
+- Chitin scale
+
+- ciris_phylactery
+
+- Cockatrice egg
+
+- Cockatrice maw
+
+- Cockatrice mutagen
+
+- Coal
+
+- Cotton
+
+- Cow hide
+
+- Cows milk
+
+- Crowns
+
+- Crystalized essence
+
+- Cucumber
+
+- Cyclops eye
+
+- Czart hide
+
+- Czart mutagen
+
+- Dao mutagen
+
+- Dark iron ingot
+
+- Dark iron ore
+
+- Dark iron plate
+
+- Dark steel ingot
+
+- Dark steel plate
+
+- Deer hide
+
+- Diamond
+
+- Diamond dust
+
+- Diamond flawless
+
+- Dijkstra Dry
+
+- Dismantle Kit
+
+- Dog tallow
+
+- Doppler mutagen
+
+- Draconide leather
+
+- Dragon scales
+
+- Dried fruit
+
+- Dried fruit and nuts
+
+- Drowned dead tongue
+
+- Drowner brain
+
+- Drum
+
+- Ducal water
+
+- Dwarven spirit
+
+- Dwimeritium chains
+
+- Dwimeritium shackles
+
+- Dwimeryte ingot
+
+- Dwimeryte ore
+
+- Dwimeryte plate
+
+- Dye
+
+- Egg
+
+- Ekimma epidermis
+
+- Ekimma mutagen
+
+- Elemental essence
+
+- Emerald
+
+- Emerald dust
+
+- Emerald flawless
+
+- Empty bottle
+
+- Empty vial
+
+- Endriag chitin plates
+
+- Endriag embryo
+
+- Endriag heart
+
+- Erveluce
+
+- Erynie eye
+
+- Est Est
+
+- faroe_map
+
+- Feather
+
+- Fiber
+
+- Fiend eye
+
+- Fiend mutagen
+
+- Fifth essence
+
+- Fish
+
+- Fishing net
+
+- Fishing rod
+
+- Fisstech
+
+- Flask
+
+- Florens
+
+- Flowers
+
+- Flute_junk
+
+- Fogling 1 mutagen
+
+- Fogling 2 mutagen
+
+- Fogling teeth
+
+- Fondue
+
+- Forktail mutagen
+
+- Forktail plate
+
+- Fox pelt
+
+- Free nilfgaardian lemon
+
+- Free roasted chicken leg
+
+- Fried fish
+
+- Fried meat
+
+- Fur square
+
+- Gargoyle dust
+
+- Gargoyle heart
+
+- Ghoul blood
+
+- Glamarye
+
+- Glass
+
+- Glowing ingot
+
+- Glowing ore
+
+- Glyph infusion greater
+
+- Glyph infusion lesser
+
+- Goat hide
+
+- Goats milk
+
+- Goblet
+
+- Gold candelabra
+
+- Gold diamond necklace
+
+- Gold diamond ring
+
+- Gold mineral
+
+- Gold ore
+
+- Gold pearl necklace
+
+- Gold ring
+
+- Gold ruby ring
+
+- Gold sapphire necklace
+
+- Gold sapphire ring
+
+- Golden casket
+
+- Golden mug
+
+- Golden platter
+
+- Golem heart
+
+- Grapes
+
+- Grave Hag ear
+
+- Grave Hag mutagen
+
+- Greater mutagen blue
+
+- Greater mutagen green
+
+- Greater mutagen red
+
+- Greater Rotfiend blood
+
+- Gryphon egg
+
+- Gryphon feathers
+
+- Gryphon mutagen
+
+- Gutted fish
+
+- Haft
+
+- Hag teeth
+
+- Hardened leather
+
+- Hardened timber
+
+- Harpy egg
+
+- Harpy feathers
+
+- Harpy talon
+
+- hindarsfjal_map
+
+- Honeycomb
+
+- Horse hide
+
+- Hydragenum
+
+- Illusion Medallion
+
+- Infused crystal
+
+- Infused dust
+
+- Infused shard
+
+- Inkwell
+
+- Iron ingot
+
+- Iron Lamp
+
+- Iron oil candle
+
+- Iron ore
+
+- Jar
+
+- Jug
+
+- Jumping rope
+
+- Kaedwenian Stout
+
+- Katakan mutagen
+
+- Ladle
+
+- Lamia lock of hair
+
+- Lamia mutagen
+
+- Lead ore
+
+- Leather
+
+- Leather squares
+
+- Leather straps
+
+- Leshy mutagen
+
+- Leshy resin
+
+- Lesser mutagen blue
+
+- Lesser mutagen green
+
+- Lesser mutagen red
+
+- Linen
+
+- Lunar shards
+
+- Lute
+
+- Mahakam Spirit
+
+- Mandrake cordial
+
+- Melitele figurine
+
+- Meteorite ingot
+
+- Meteorite ore
+
+- Meteorite plate
+
+- Meteorite silver ingot
+
+- Meteorite silver plate
+
+- Mettina Rose
+
+- mh107_czart_lure
+
+- Monstrous blood
+
+- Monstrous bone
+
+- Monstrous brain
+
+- Monstrous claw
+
+- Monstrous dust
+
+- Monstrous ear
+
+- Monstrous egg
+
+- Monstrous essence
+
+- Monstrous eye
+
+- Monstrous feather
+
+- Monstrous hair
+
+- Monstrous heart
+
+- Monstrous hide
+
+- Monstrous liver
+
+- Monstrous plate
+
+- Monstrous saliva
+
+- Monstrous tongue
+
+- Monstrous tooth
+
+- Mug
+
+- Mushroom
+
+- Mutagen blue
+
+- Mutagen green
+
+- Mutagen red
+
+- Mutton curry
+
+- Mutton leg
+
+- Nails
+
+- Necrophage skin
+
+- Nekker blood
+
+- Nekker claw
+
+- Nekker eye
+
+- Nekker heart
+
+- Nekker warrior liver
+
+- Nekker Warrior mutagen
+
+- Nightwraith dark essence
+
+- Nightwraith mutagen
+
+- Nightwraiths hair
+
+- Nigredo
+
+- Nilfgaardian Lemon
+
+- Nilfgaardian special forces insignia
+
+- Noonwraith light essence
+
+- Noonwraith mutagen
+
+- Note
+
+- Oil
+
+- Oil Lamp
+
+- Old bear skin
+
+- Old goat skin
+
+- Old rusty breadknife
+
+- Old sheep skin
+
+- Olive
+
+- Onion
+
+- Optima mater
+
+- ore_oxenfurt
+
+- Orens
+
+- Ornate silver shield replica
+
+- Ornate silver sword replica
+
+- Parchment
+
+- Patchwork vest
+
+- Pear
+
+- Pearl
+
+- Pepper
+
+- Perfume
+
+- Phosphorus
+
+- Pickaxe head
+
+- Pig hide
+
+- Platter
+
+- Plum
+
+- Pork
+
+- Potatoes
+
+- Potestaquisitor
+
+- Powdered pearl
+
+- Pure silver
+
+- Quebrith
+
+- Quicksilver solution
+
+- Rabbit pelt
+
+- Raspberries
+
+- Raspberry juice
+
+- Raw meat
+
+- Razor
+
+- Rebis
+
+- Redanian Herbal
+
+- Redanian Lager
+
+- Redanian special forces insignia
+
+- Resin
+
+- Rivian Kriek
+
+- Roasted chicken
+
+- Roasted chicken leg
+
+- Rope
+
+- Rotfiend blood
+
+- Rotten meat
+
+- Rubedo
+
+- Ruby
+
+- Ruby dust
+
+- Ruby flawless
+
+- Runestone greater
+
+- Runestone lesser
+
+- Rusty hammer head
+
+- Salt pepper shaker
+
+- Saltpetre
+
+- Sap
+
+- Sapphire
+
+- Sapphire dust
+
+- Sapphire flawless
+
+- Scoiatael trophies
+
+- Seashell
+
+- Shell
+
+- Silk
+
+- Silver amber necklace
+
+- Silver amber ring
+
+- Silver candelabra
+
+- Silver casket
+
+- Silver emerald necklace
+
+- Silver emerald ring
+
+- Silver ingot
+
+- Silver mineral
+
+- Silver mug
+
+- Silver ore
+
+- Silver pantaloons
+
+- Silver plate
+
+- Silver platter
+
+- Silver ruby necklace
+
+- Silver sapphire ring
+
+- Silver teapot
+
+- Silverware
+
+- Siren vocal cords
+
+- Skull
+
+- Smithing tools
+
+- Smithing tools dwarven
+
+- Smithing tools elven
+
+- Smithing tools gnomish
+
+- Smoking pipe
+
+- Specter dust
+
+- spikeroog_map
+
+- Stammelfords dust
+
+- Steel ingot
+
+- Steel plate
+
+- Strawberries
+
+- String
+
+- Succubus mutagen
+
+- Sulfur
+
+- Temerian Rye
+
+- Temerian special forces insignia
+
+- Thread
+
+- Timber
+
+- Tirnalia potion
+
+- Toffee
+
+- Troll mutagen
+
+- Troll skin
+
+- Twine
+
+- undvik_map
+
+- Valuable fossil
+
+- Vampire fang
+
+- Vampire saliva
+
+- Venom extract
+
+- Vermilion
+
+- Very good honey
+
+- Vinegar
+
+- Vitriol
+
+- Viziman Champion
+
+- Volcanic Gryphon mutagen
+
+- Voodoo doll
+
+- Water essence
+
+- Water Hag mutagen
+
+- Water Hag teeth
+
+- Wax
+
+- Weapon repair kit 1
+
+- Weapon repair kit 2
+
+- Weapon repair kit 3
+
+- Werewolf mutagen
+
+- Werewolf pelt
+
+- Werewolf saliva
+
+- Whetstone
+
+- Whetstone dwarven
+
+- Whetstone elven
+
+- Whetstone gnomish
+
+- White bear pelt
+
+- White Gull 1
+
+- White wolf pelt
+
+- Wine stone
+
+- Wire
+
+- Wire rope
+
+- Wolf liver
+
+- Wolf pelt
+
+- Wooden rung rope ladder
+
+- Worn leather pelt
+
+- Wraith essence
+
+- Wraith mutagen
+
+- Wyvern egg
+
+- Wyvern mutagen
+
+- Wyvern plate
+
+ арты дл€ гивнта
+
+- gwint_card_albrich
+
+- gwint_card_arachas
+
+- gwint_card_arachas_behemoth
+
+- gwint_card_arachas2
+
+- gwint_card_arachas3
+
+- gwint_card_archer_support
+
+- gwint_card_archer_support2
+
+- gwint_card_assire
+
+- gwint_card_avallach
+
+- gwint_card_ballista
+
+- gwint_card_ballista_officer
+
+- gwint_card_barclay
+
+- gwint_card_black_archer
+
+- gwint_card_black_archer2
+
+- gwint_card_blue_stripes
+
+- gwint_card_blue_stripes2
+
+- gwint_card_blue_stripes3
+
+- gwint_card_botchling
+
+- gwint_card_bruxa
+
+- gwint_card_cahir
+
+- gwint_card_catapult
+
+- gwint_card_catapult2
+
+- gwint_card_celaeno_harpy
+
+- gwint_card_ciaran
+
+- gwint_card_ciri
+
+- gwint_card_clear_sky
+
+- gwint_card_cockatrice
+
+- gwint_card_combat_engineer
+
+- gwint_card_crinfrid
+
+- gwint_card_crinfrid2
+
+- gwint_card_crinfrid3
+
+- gwint_card_crone_brewess
+
+- gwint_card_crone_weavess
+
+- gwint_card_crone_whispess
+
+- gwint_card_cynthia
+
+- gwint_card_dandelion
+
+- gwint_card_dennis
+
+- gwint_card_dijkstra
+
+- gwint_card_dol_archer
+
+- gwint_card_dol_dwarf
+
+- gwint_card_dol_dwarf2
+
+- gwint_card_dol_dwarf3
+
+- gwint_card_dol_infantry
+
+- gwint_card_dol_infantry2
+
+- gwint_card_dol_infantry3
+
+- gwint_card_draug
+
+- gwint_card_dummy
+
+- gwint_card_dun_banner_medic
+
+- gwint_card_earth_elemental
+
+- gwint_card_eithne
+
+- gwint_card_ekkima
+
+- gwint_card_elf_skirmisher
+
+- gwint_card_elf_skirmisher2
+
+- gwint_card_elf_skirmisher3
+
+- gwint_card_emhyr_bronze
+
+- gwint_card_emhyr_copper
+
+- gwint_card_emhyr_gold
+
+- gwint_card_emhyr_silver
+
+- gwint_card_emiel
+
+- gwint_card_endrega
+
+- gwint_card_eredin_bronze
+
+- gwint_card_eredin_copper
+
+- gwint_card_eredin_gold
+
+- gwint_card_eredin_silver
+
+- gwint_card_esterad
+
+- gwint_card_fiend
+
+- gwint_card_filavandrel
+
+- gwint_card_fire_elemental
+
+- gwint_card_fleder
+
+- gwint_card_fog
+
+- gwint_card_fogling
+
+- gwint_card_foltest_bronze
+
+- gwint_card_foltest_copper
+
+- gwint_card_foltest_gold
+
+- gwint_card_foltest_silver
+
+- gwint_card_forktail
+
+- gwint_card_francesca_bronze
+
+- gwint_card_francesca_copper
+
+- gwint_card_francesca_gold
+
+- gwint_card_francesca_silver
+
+- gwint_card_frightener
+
+- gwint_card_fringilla
+
+- gwint_card_frost
+
+- gwint_card_gargoyle
+
+- gwint_card_garkain
+
+- gwint_card_geralt
+
+- gwint_card_ghoul
+
+- gwint_card_ghoul2
+
+- gwint_card_ghoul3
+
+- gwint_card_grave_hag
+
+- gwint_card_griffin
+
+- gwint_card_harpy
+
+- gwint_card_havekar_nurse
+
+- gwint_card_havekar_nurse2
+
+- gwint_card_havekar_nurse3
+
+- gwint_card_havekar_support
+
+- gwint_card_havekar_support2
+
+- gwint_card_havekar_support3
+
+- gwint_card_heavy_zerri
+
+- gwint_card_horn
+
+- gwint_card_ice_giant
+
+- gwint_card_ida
+
+- gwint_card_imlerith
+
+- gwint_card_impera_brigade
+
+- gwint_card_impera_brigade2
+
+- gwint_card_impera_brigade3
+
+- gwint_card_impera_brigade4
+
+- gwint_card_iorveth
+
+- gwint_card_isengrim
+
+- gwint_card_kaedwen
+
+- gwint_card_kaedwen2
+
+- gwint_card_katakan
+
+- gwint_card_kayran
+
+- gwint_card_leshen
+
+- gwint_card_letho
+
+- gwint_card_mahakam
+
+- gwint_card_mahakam2
+
+- gwint_card_mahakam3
+
+- gwint_card_mahakam4
+
+- gwint_card_mahakam5
+
+- gwint_card_menno
+
+- gwint_card_milva
+
+- gwint_card_moorvran
+
+- gwint_card_morteisen
+
+- gwint_card_natalis
+
+- gwint_card_nausicaa
+
+- gwint_card_nausicaa2
+
+- gwint_card_nausicaa3
+
+- gwint_card_nekker
+
+- gwint_card_nekker2
+
+- gwint_card_nekker3
+
+- gwint_card_philippa
+
+- gwint_card_plague_maiden
+
+- gwint_card_poor_infantry
+
+- gwint_card_poor_infantry2
+
+- gwint_card_poor_infantry3
+
+- gwint_card_puttkammer
+
+- gwint_card_rain
+
+- gwint_card_rainfarn
+
+- gwint_card_renuald
+
+- gwint_card_riordain
+
+- gwint_card_rotten
+
+- gwint_card_saskia
+
+- gwint_card_scorch
+
+- gwint_card_shilard
+
+- gwint_card_siege_support
+
+- gwint_card_siege_tower
+
+- gwint_card_siegfried
+
+- gwint_card_stefan
+
+- gwint_card_stennis
+
+- gwint_card_sweers
+
+- gwint_card_thaler
+
+- gwint_card_tibor
+
+- gwint_card_toruviel
+
+- gwint_card_triss
+
+- gwint_card_vanhemar
+
+- gwint_card_vattier
+
+- gwint_card_vernon
+
+- gwint_card_vesemir
+
+- gwint_card_villen
+
+- gwint_card_vreemde
+
+- gwint_card_vrihedd_brigade
+
+- gwint_card_vrihedd_brigade2
+
+- gwint_card_vrihedd_cadet
+
+- gwint_card_werewolf
+
+- gwint_card_witch_hunters
+
+- gwint_card_wyvern
+
+- gwint_card_yaevinn
+
+- gwint_card_yennefer
+
+- gwint_card_young_emissary
+
+- gwint_card_young_emissary2
+
+- gwint_card_zerri
+
+- gwint_card_zoltan
